@@ -1,3 +1,7 @@
-const fs =require('fs');
+const arr = ['apple','orange','mango','','lemon'];
+newarr = [];
 
-fs.writeFileSync('hello.txt', 'Hello World - from Node.js' )
+const array= arr.filter((ele,i)=>{
+     return ele !==''
+})
+console.log(array)
