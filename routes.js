@@ -51,4 +51,4 @@ const requestHandler=(req,res)=>{
 // module.exports.someText ="Hello world";
 
 exports.handler =requestHandler;
-exports.someText ="Hello world";
+exports.someText ="Hello world //comments";

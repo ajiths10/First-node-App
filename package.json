@@ -1,0 +1,24 @@
+{
+  "name": "first-node",
+  "version": "1.0.0",
+  "description": "first node",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app.js",
+    "start-server": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ajiths10/First-node-App.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ajiths10/First-node-App/issues"
+  },
+  "homepage": "https://github.com/ajiths10/First-node-App#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.16"
+  }
+}
