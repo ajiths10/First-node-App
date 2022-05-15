@@ -8,11 +8,13 @@ const app =express();
 const adminRoutes = require('./routes/admin');
 const shopRoutes = require('./routes/shop');
 const pageNotFound = require('./routes/404Page');
+const contactus = require('./routes/contactus');
 
 app.use(bodyPaser.urlencoded({extended:false}));
 
 app.use('/admin',adminRoutes);
 app.use(shopRoutes);;
+app.use(contactus);
 app.use(pageNotFound);
 
 const server = http.createServer(app);

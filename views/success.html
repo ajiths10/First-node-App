@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Add product</title>
+    <title>Contact us</title>
     <style>
         body{
             margin: 0;
@@ -52,6 +52,7 @@
             border-radius: .4rem;
             padding: 10px;
             width: 300px;
+            margin-top: 1rem;
         }
         button{
             background-color: #04AA6D;
@@ -75,18 +76,14 @@
         <nav class="main-header__nav">
             <ul class="main-header__item_list">
                 <li class="main_header__item"> <a   href="/">Shop</a></li>
-                <li class="main_header__item"><a class="active" href="/admin/addproduct">Add Product</a></li>
-                <li class="main_header__item"><a href="/contactus">Contact us</a></li>
+                <li class="main_header__item"><a  href="/admin/addproduct">Add Product</a></li>
+                <li class="main_header__item"><a class="active" href="/contactus">Contact us</a></li>
             </ul>
         </nav>
     </header>
     <main>
-        <form class="product-form" action="/admin/addproduct" method="POST">
-            <h2 >Add product</h2>
-            <input  type="text" name="title" id="title" placeholder="title">
-            <br>
-            <button type="submit">Add  Product</button>
-        </form>
+        <h1>Success!!</h1>
+        <p>Form successfuly filled</p>
     </main>
 </body>
 </html>
